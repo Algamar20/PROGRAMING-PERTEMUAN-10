@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <caption>Nama hewan</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">no</th>
+                <th colspan="3">Jenis hewan</th>
+                <th rowspan="2">Keterangan</th>
+            </tr>
+            <tr>
+                <th>Herbivora</th>
+                <th>Karnivora</th>
+                <th>Omnivora</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sapi</td>
+                <td>Singa</td>
+                <td>Monyet</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gajah</td>
+                <td>Serigala</td>
+                <td>Orang utan</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Kuda</td>
+                <td>Harimau</td>
+                <td>Beruang</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
