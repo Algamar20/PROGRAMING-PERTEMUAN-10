@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: brown;
+            justify-content: space-between;
+        }
+        div ul li {
+            margin-right: 20px ;
+            list-style-type: none;
+        }
+        div ul {
+            display: inline-flex;
+        }
+        div ul li a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+     <ul>
+        <li><a href="Beramda.html" target="content">Beranda</a></li>
+        <li><a href="10_1.html" target="content">Data hewan</a></li>
+        <li><a href="pertemuan10.pdf" target="content">File pdf</a></li>
+        <li><a href="https://www.youtube.com/embed/hR5pJcYMk-I" target="content">Link</a></li>
+    </ul>
+</div>
+    <iframe name="content" src="" width="100%" height="600px" title="content Iframe" allowfullscreen frameborder="0"></iframe>
+</body>
+</html>
